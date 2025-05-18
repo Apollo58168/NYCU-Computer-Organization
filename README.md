@@ -1,2 +1,1 @@
-# NYCU-Intro-to-AI
-NYCU
+# NYCU-Computer-Organization
