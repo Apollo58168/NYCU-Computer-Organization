@@ -124,3 +124,39 @@ Please keep in mind that the supported instructions for the lab 4 CPU is extreme
 │       ├── hello.ld
 │       └── Makefile          // Makefile to make everything
 ```
+
+---
+
+## Reflections
+
+### Lab0
+感謝助教幫我們把整個 iso 檔都壓縮好了，只需要下載並且啟動 virtual machine 就可以輕鬆完成環境架設
+
+### Lab1
+第一次用組合語言寫演算法有關的東西
+雖然道理跟邏輯相同
+但是寫起來會因為 asm 比較底層的關係所以卡卡的
+
+### Lab2
+這一次作業因為第一次繳交的時候，沒有注意到 jtype 的路徑比較不同
+所以重新補交被扣了10分
+但是把所有 module 串起來非常好玩
+而且只是根據架構圖 (可以點上面的 Lab2 連結) 慢慢把線接起來而已
+
+### Lab3
+這一次 Lab 我只有稍微看過 ripes 的行為模擬
+我就直接照著架構圖把 pipeline 寫出來了
+因為不用處理 hazard 跟 stall 的關係
+所以其實蠻容易的
+
+### Lab4
+這個 Lab 讓很多人沒有拿滿
+因為助教給的架構圖比較不直觀，很多人看不懂
+我也不太了解，所以我自己修改了架構圖 (文件中的 Lab4.pdf)
+花比較多時間的應該是 使用 GTKwave 一個一個 cycle 看每一個值是否正確
+並且配合 ripes 來 debug 每一個 stage 的值是多少
+
+### Lab5
+這一個 Lab 只需要寫得比助教給的 sample code miss 還要低就好
+但是因為有 ranking 所以我實踐了一個 8-way associtive cache
+自己覺得沒有到非常難
